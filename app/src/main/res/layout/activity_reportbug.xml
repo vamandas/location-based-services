@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ENTER NAME" />
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Enter your name"
+        android:background="#ffe2e0e0"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:id="@+id/email_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ENTER E-MAIL" />
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:background="#ffe2e0e0"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+  />
+
+    <TextView
+        android:id="@+id/bug_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="BUG DETAILS" />
+
+    <EditText
+        android:id="@+id/bug_details_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffe2e0e0"
+        android:ems="10"
+        android:hint="Provide bug details"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/report_bug_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="report"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
